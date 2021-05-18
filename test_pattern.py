@@ -14,7 +14,7 @@ def test():
 #
 """
     obtained = get_output(1, 4)
-    assert expected == obtained, f"Pattern 1, 4 rows\nExpected\n{expected} Got\n{obtained}"
+    assert expected == obtained, f"Pattern 1, 4 rows\nExpected\n{expected}Got\n{obtained}"
 
     expected = """   #
   ##
@@ -22,7 +22,7 @@ def test():
 ####
 """
     obtained = get_output(2, 4)
-    assert expected == obtained, f"Pattern 2, 4 rows\nExpected\n{expected} Got\n{obtained}"
+    assert expected == obtained, f"Pattern 2, 4 rows\nExpected\n{expected}Got\n{obtained}"
 
     expected = """#####
 ####
@@ -31,7 +31,7 @@ def test():
 #
 """
     obtained = get_output(1, 5)
-    assert expected == obtained, f"Pattern 1, 5 rows\nExpected\n{expected} Got\n{obtained}"
+    assert expected == obtained, f"Pattern 1, 5 rows\nExpected\n{expected}Got\n{obtained}"
 
     expected = """    #
    ##
@@ -40,7 +40,7 @@ def test():
 #####
 """
     obtained = get_output(2, 5)
-    assert expected == obtained, f"Pattern 2, 5 rows\nExpected\n{expected} Got\n{obtained}"
+    assert expected == obtained, f"Pattern 2, 5 rows\nExpected\n{expected}Got\n{obtained}"
 
 
     return True
