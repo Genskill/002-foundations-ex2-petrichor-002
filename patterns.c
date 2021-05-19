@@ -17,8 +17,8 @@ int main(){
     }
     else{
         for(i = 0;i<rows;i++){
-            for(j = rows;j>i;j--){
-                printf("");
+            for(j = rows-1;j>i;j--){
+                printf(" ");
             }
             for(k = 0;k <= j;k++)
             {
