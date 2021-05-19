@@ -10,21 +10,13 @@ int main(){
     if (pattern == 1){
         for(i = 0;i<=rows; i++){
             for(j = rows;j>i; j--){
-                printf("#");
-            }
-        printf("\n");
-        }
-    }
+                printf("#");}
+        printf("\n");}}
     else{
         for(i = 0;i<=rows;i++){
             for(j = rows;j>i;j--){
-                printf(" ");
-            }
-            for(k = 0;k <= j;k++)
-            {
-            printf("#");
-            }
-         printf("\n");
-        }
-    }
+                printf(" ");}
+            for(k = 0;k <= j;k++){
+            printf("#");}
+         printf("\n");}}
 }
